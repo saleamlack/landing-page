@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
@@ -127,6 +129,7 @@ a {
 .sign-up .content {
     background-color:#3882F6;
     border-radius: 10px;
+    flex: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
